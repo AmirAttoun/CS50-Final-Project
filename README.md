@@ -10,17 +10,23 @@
 
     Welcome to *"AdCalendar"*!
 
-    This project was created as the final project for Harvard University's CS50P Introduction to Programming with Python.
+    This project was created as the final project for Harvard University's CS50P Introduction 
+    to Programming with Python.
 
     --Idea--
-    The general idea for the program is for it to be able to create calendars which can store data for
-    individual days. For now, this data comes in the form of text. The calendars are made persistent by I/O operations. The intial inspiration was to create an "Advent calendar". See Topic "Creating calendats" for an explanation of the concept.
+    The general idea for the program is for it to be able to create calendars which can store 
+    data for individual days. For now, this data comes in the form of text. The calendars are
+    made persistent by I/O operations. The intial inspiration was to create an "Advent calendar". 
+    See Topic Concept of an advent calendar for an explanation of the concept.
 
     The program is interactive and user driven.
 
 ## Concept of an "advent calendar"
     In Europe, there is the concept of an "Advent Calendar" (hence the ad in adCalendar).
-    Usually used during the pre-Christmas time, kids (and likeminded adult) can buy a physical calendar that consists of individual "doors" than are supposed to be opened each day from the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note or other little gifts.
+    Usually used during the pre-Christmas time, kids (and likeminded adult) can buy a physical
+    calendar that consists of individual "doors" than are supposed to be opened each day from 
+    the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note
+    or other little gifts.
     Hence the the idea to create calendars with a limited runtime
 
 ## Features
