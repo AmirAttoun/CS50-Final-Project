@@ -5,6 +5,7 @@
 
 ## Video Demo:  
     Video Demo:  TBD
+    Github: https://github.com/AmirAttoun/CS50-Final-Project
 
 ## Description:
 Welcome to *"AdCalendar"*!
@@ -56,6 +57,10 @@ calendars have to be unique.
 ### Loading calendars
 In the main menu, the user can load up stored calendars.
 Those are read and loaded from data.json
+
+### Deleting calendars
+In the main menu, the user has the option to delete a calendar.
+The calendar will be remove from data.json
 
 ### Data actions
 Once loaded, the user can read text entries for the chosen days (entries marked 
