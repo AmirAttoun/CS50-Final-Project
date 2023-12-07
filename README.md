@@ -3,6 +3,66 @@
 ## Video Demo:  
     Video Demo:  TBD
 
-# Description:
-    test
-    Another test
+## Description:
+    Welcome to *"AdCalendar"*!
+
+    --Idea--
+    The general idea for the program is for it to be able to create calendars which can store data for
+    individual days. For now, this data comes in the form of text. The calendars are made persistend by I/O operations. The intial idea was to create an "Advent calendar". See Topic "Creating calendats" for an explanation of the concept.
+
+    The program is interactive and user driven.
+
+## Features
+
+### Creating calendars
+
+    The user can create a calendar for a desired year and month. with said days. If nothing is entered (empty string), the calendar will treat this as no data.
+
+    The user also has the option to create a calendar with a certaing runtime. During creation of a calendar, uses can input text to be associated 
+    Example:
+        I can create a calendar for February, 2023 with a custom amount of days of 5.
+        This will create a calendar for said month which runs from December 1st to December 5h.
+
+    In Europe, there is the concept of an "Advent Calendar" (hence the ad in adCalendar).
+    Usually used during the pre-Christmas time, kids (and likeminded adult) can buy a physical calendar that consists of individual "doors" than are supposed to be opened each day from the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note or other little gifts.
+    Hence the the idea to create calendars with a limited runtime
+
+    As an abstraction of that, users can also this tool as a general calendar and note taking application. Therefore the default amount of days in a month is also valid.
+
+### Displaying calendars
+
+    Once a calendar has been created, the application will output said calendar in a tabulated form, indicating with an "!" the days, in which data has been stored. To read and edit entries, the calendar first has to be saved.
+
+### Storing calendars
+
+    After creatig a calendar, the user has the option to save the generated calendar. 
+    This will write the generate calendar object to data.json. The names of stored calendars have to be unique.
+
+### Loading calendar
+
+    In the main menu, the user can load up stored calendars.
+    Those are read and loaded from data.json
+
+### Data actions
+
+    Once loaded, the user can read text entries for the chosen days (entries marked with an "!" contain data).
+    Additionally, a user can edit data for the given days. If there is no data in the chosen day, the data will be added as well.
+    Using the edit functionality automatically writes the data back into data.json.
+
+
+### Future features 
+
+    - Storing data like audio, video, images in addition to text
+    - A GUI
+    - Better Menuflow
+
+### Optimization
+
+    - Refactoring of certain code elements such as:
+        - Methods
+        - Functions
+        - Classes
+    - Improvements in unit tests
+    
+
+
