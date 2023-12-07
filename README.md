@@ -33,23 +33,30 @@
 
 ### Creating calendars
 
-    The user can create a calendar for a desired year and month. with said days. If nothing is entered (empty string), the calendar will treat this as no data.
+    The user can create a calendar for a desired year and month. with said days. If 
+    nothing is entered (empty string), the calendar will treat this as no data.
 
-    The user also has the option to create a calendar with a certaing runtime. During creation of a calendar, uses can input text to be associated 
+    The user also has the option to create a calendar with a certaing runtime.
+    During creation of a calendar, uses can input text to be associated 
     Example:
         I can create a calendar for February, 2023 with a custom amount of days of 5.
-        This will create a calendar for said month which runs from December 1st to December 5h.
+        This will create a calendar for said month which runs from December 1st 
+        to December 5h.
 
-    As an abstraction of that, users can also this tool as a general calendar and note taking application. Therefore the default amount of days in a month is also valid.
+    As an abstraction of that, users can also this tool as a general calendar and note
+    taking application. Therefore the default amount of days in a month is also valid.
 
 ### Displaying calendars
 
-    Once a calendar has been created, the application will output said calendar in a tabulated form, indicating with an "!" the days, in which data has been stored. To read and edit entries, the calendar first has to be saved.
+    Once a calendar has been created, the application will output said calendar in a
+    tabulated form, indicating with an "!" the days, in which data has been stored. 
+    To read and edit entries, the calendar first has to be saved.
 
 ### Storing calendars
 
     After creatig a calendar, the user has the option to save the generated calendar. 
-    This will write the generate calendar object to data.json. The names of stored calendars have to be unique.
+    This will write the generate calendar object to data.json. The names of stored 
+    calendars have to be unique.
 
 ### Loading calendars
 
@@ -58,8 +65,10 @@
 
 ### Data actions
 
-    Once loaded, the user can read text entries for the chosen days (entries marked with an "!" contain data).
-    Additionally, a user can edit data for the given days. If there is no data in the chosen day, the data will be added as well.
+    Once loaded, the user can read text entries for the chosen days (entries marked 
+    with an "!" contain data).
+    Additionally, a user can edit data for the given days. If there is no data in the 
+    chosen day, the data will be added as well.
     Using the edit functionality automatically writes the data back into data.json.
 
 
@@ -79,4 +88,5 @@
 
 ### Contact
 
-Please do not hesitate to contact me if you have questions regarding the project or any other related subject. Mail me <a href="mailto:amir.attoun@protonmail.ch">here</a>.
+Please do not hesitate to contact me if you have questions regarding the project
+or any other related subject. Mail me <a href="mailto:amir.attoun@protonmail.ch">here</a>.
