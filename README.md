@@ -1,6 +1,5 @@
 # adCalendar
 
-
 ![Language](https://img.shields.io/badge/language-python-blue)
 
 ## Video Demo:  
@@ -22,11 +21,11 @@ The program is interactive and user driven.
 
 ## Concept of an "advent calendar"
 In Europe, there is the concept of an "Advent Calendar" (hence the ad in adCalendar).
-Usually used during the pre-Christmas time, kids (and likeminded adult) can buy a physical
+Usually used during the pre-Christmas time, kids (and likeminded adults) can buy a physical
 calendar that consists of individual "doors" than are supposed to be opened each day from 
 the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note
 or other little gifts.
-Hence the the idea to create calendars with a limited runtime
+Hence the the idea to create calendars with a limited runtime.
 
 ## Features
 
