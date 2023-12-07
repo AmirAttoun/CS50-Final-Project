@@ -14,9 +14,14 @@
 
     --Idea--
     The general idea for the program is for it to be able to create calendars which can store data for
-    individual days. For now, this data comes in the form of text. The calendars are made persistend by I/O operations. The intial idea was to create an "Advent calendar". See Topic "Creating calendats" for an explanation of the concept.
+    individual days. For now, this data comes in the form of text. The calendars are made persistent by I/O operations. The intial inspiration was to create an "Advent calendar". See Topic "Creating calendats" for an explanation of the concept.
 
     The program is interactive and user driven.
+
+## Concept of an "advent calendar"
+    In Europe, there is the concept of an "Advent Calendar" (hence the ad in adCalendar).
+    Usually used during the pre-Christmas time, kids (and likeminded adult) can buy a physical calendar that consists of individual "doors" than are supposed to be opened each day from the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note or other little gifts.
+    Hence the the idea to create calendars with a limited runtime
 
 ## Features
 
@@ -29,13 +34,9 @@
         I can create a calendar for February, 2023 with a custom amount of days of 5.
         This will create a calendar for said month which runs from December 1st to December 5h.
 
-    In Europe, there is the concept of an "Advent Calendar" (hence the ad in adCalendar).
-    Usually used during the pre-Christmas time, kids (and likeminded adult) can buy a physical calendar that consists of individual "doors" than are supposed to be opened each day from the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note or other little gifts.
-    Hence the the idea to create calendars with a limited runtime
-
     As an abstraction of that, users can also this tool as a general calendar and note taking application. Therefore the default amount of days in a month is also valid.
 
-### Displaying calendars
+### Displaying calendars
 
     Once a calendar has been created, the application will output said calendar in a tabulated form, indicating with an "!" the days, in which data has been stored. To read and edit entries, the calendar first has to be saved.
 
@@ -44,7 +45,7 @@
     After creatig a calendar, the user has the option to save the generated calendar. 
     This will write the generate calendar object to data.json. The names of stored calendars have to be unique.
 
-### Loading calendar
+### Loading calendars
 
     In the main menu, the user can load up stored calendars.
     Those are read and loaded from data.json
@@ -73,5 +74,3 @@
 ### Contact
 
 Please do not hesitate to contact me if you have questions regarding the project or any other related subject. Mail me <a href="mailto:amir.attoun@protonmail.ch">here</a>.
-
-
