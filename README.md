@@ -68,7 +68,6 @@ Additionally, a user can edit data for the given days. If there is no data in th
 chosen day, the data will be added as well.
 Using the edit functionality automatically writes the data back into data.json.
 
-
 ### Future features 
 - Storing data like audio, video, images in addition to text
 - A GUI
@@ -80,6 +79,17 @@ Using the edit functionality automatically writes the data back into data.json.
     - Functions
     - Classes
 - Improvements in unit tests
+
+### Learnings
+Feature creep is real.
+Milestones are important.
+The intial setup of a project, for example how classes are structured, might not hold up
+the longer a project goes on. 
+Avoid the temptation to hardcode "hacks".
+Refactoring takes time. 
+Break down problems into little chunks.
+Persistence. Don't give up, even if you feel like the code is not "optimal". 
+Live and learn.
 
 ### Contact
 Please do not hesitate to contact me if you have questions regarding the project
