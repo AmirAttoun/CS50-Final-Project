@@ -12,7 +12,6 @@ Welcome to *"AdCalendar"*!
 This project was created as the final project for Harvard University's CS50P Introduction 
 to Programming with Python.
 
---Idea--
 The general idea for the program is for it to be able to create calendars which can store 
 data for individual days. For now, this data comes in the form of text. The calendars are
 made persistent by I/O operations. The intial inspiration was to create an "Advent calendar". 
