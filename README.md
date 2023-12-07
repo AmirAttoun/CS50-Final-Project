@@ -15,13 +15,13 @@ to Programming with Python.
 
 The general idea for the program is for it to be able to create calendars which can store 
 data for individual days. For now, this data comes in the form of text. The calendars are
-made persistent by I/O operations. The intial inspiration was to create an "Advent calendar". 
+made persistent by I/O operations. The initial inspiration was to create an "advent calendar". 
 See Topic Concept of an advent calendar for an explanation of the concept.
 
 The program is interactive and user driven.
 
 ## Concept of an "advent calendar"
-In Europe, there is the concept of an "Advent Calendar" (hence the ad in adCalendar).
+In Europe, there is the concept of an "Advent Calendar" (hence the ad in "adCalendar").
 Usually used during the pre-Christmas time, kids (and likeminded adults) can buy a physical
 calendar that consists of individual "doors" that are supposed to be opened each day from 
 the 1st to the 24th (Christmas Eve). Behind each door there is a piece of chocolate, a note
