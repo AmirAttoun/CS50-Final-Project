@@ -1,10 +1,16 @@
 # adCalendar
 
+
+![Language](https://img.shields.io/badge/language-python-blue)
+
 ## Video Demo:  
     Video Demo:  TBD
 
 ## Description:
+
     Welcome to *"AdCalendar"*!
+
+    This project was created as the final project for Harvard University's CS50P Introduction to Programming with Python.
 
     --Idea--
     The general idea for the program is for it to be able to create calendars which can store data for
@@ -63,6 +69,9 @@
         - Functions
         - Classes
     - Improvements in unit tests
-    
+
+### Contact
+
+Please do not hesitate to contact me if you have questions regarding the project or any other related subject. Mail me <a href="mailto:amir.attoun@protonmail.ch">here</a>.
 
 
