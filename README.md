@@ -3,8 +3,8 @@
 ![Language](https://img.shields.io/badge/language-python-blue)
 
 ## Video Demo:  
-    Video Demo:  TBD
-    Github: https://github.com/AmirAttoun/CS50-Final-Project
+Video Demo:  TBD
+Github: https://github.com/AmirAttoun/CS50-Final-Project
 
 ## Description:
 Welcome to *"AdCalendar"*!
